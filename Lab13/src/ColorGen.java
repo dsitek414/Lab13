@@ -14,6 +14,7 @@ public class ColorGen extends JFrame {
 	
 	public ColorGen() {
 		setSize(DEFAULT_WIDTH,DEFAULT_HEIGHT);
+		setTitle("Color Cycler");
 		
 		JButton changeButton = new JButton("Change");
 		JButton resetButton = new JButton("Reset");
